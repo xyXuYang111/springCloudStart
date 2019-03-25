@@ -1,0 +1,29 @@
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: localhost:8081
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8080/eureka/
+
+server:
+  port: 8081
+spring:
+  freemarker:
+    charset: utf-8
+    content-type: text/html
+    suffix: .ftl
+    template-loader-path: classpath:/
+  http:
+    encoding:
+      charset: utf-8
+      force-request: true
+      force-response: true
+  application:
+    name: server01
+  datasource:
+    druid:
+      stat-view-servlet:
+        login-username: xuyang
+        login-password: 1234qwer
+        url-pattern: /druid/*
