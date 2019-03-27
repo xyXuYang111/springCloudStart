@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        #ealth-check-path: /health
+        #health-check-interval: 15s
+        tags: dev
+        instance-id: consul-server
+        service-name: app
+  application:
+    name: consul-server
+
+server:
+  port: 8090

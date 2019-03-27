@@ -1,0 +1,7 @@
+1，关于consul，它不同于eur，他是需要从consul官网下载一个文件，通过控制台启动
+     指令：consul agent -dev
+     访问端口：http://localhost:8500
+
+2，他的集成是服务提供者和服务消费者：和ribbon或者feign有点相同
+
+3，存在问题

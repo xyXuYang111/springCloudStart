@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/fileserver/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/consul/pom.xml" />
       </list>
     </option>
   </component>
